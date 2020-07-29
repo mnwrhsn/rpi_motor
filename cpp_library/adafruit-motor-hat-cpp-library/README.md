@@ -4,6 +4,12 @@ C++ port of the official [Adafruit-Motor-HAT-Python-Library](https://github.com/
 
 Uses the [I2C Device Interface](https://www.kernel.org/doc/html/latest/i2c/dev-interface.html) to control the HAT.
 
+### TO COMPILE:
+
+`g++ -std=c++11  test.cpp source/*.cpp -o test -lpthread` 
+
+
+
 Example usage:
 
 ```c++
